@@ -1,19 +1,26 @@
 {
-  "name": "reactnode",
+  "name": "rallstad.github.io",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node server/index.js",
-    "build": "cd client && npm install && npm run build"
-  },
-  "engines": {
-    "node": "v17.3.1"
+    "client": "cd client && npm start",
+    "backend": "cd server && nodemon server.js",
+    "dev": "concurrently \"npm run backend\" \"npm run client\""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
+    "concurrently": "^7.0.0",
     "express": "^4.17.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rallstad/rallstad.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Rallstad/rallstad.github.io/issues"
+  },
+  "homepage": "https://github.com/Rallstad/rallstad.github.io#readme",
+  "description": ""
 }
