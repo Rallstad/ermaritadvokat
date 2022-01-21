@@ -1,5 +1,5 @@
 {
-  "name": "rallstad.github.io",
+  "name": "ermaritadvokat",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -16,11 +16,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Rallstad/rallstad.github.io.git"
+    "url": "git+https://github.com/Rallstad/ermaritadvokat.git"
   },
   "bugs": {
-    "url": "https://github.com/Rallstad/rallstad.github.io/issues"
+    "url": "https://github.com/Rallstad/ermaritadvokat/issues"
   },
-  "homepage": "https://github.com/Rallstad/rallstad.github.io#readme",
-  "description": ""
+  "homepage": "https://github.com/Rallstad/ermaritadvokat#readme",
+  "description": "",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^5.0.0",
+    "web-vitals": "^2.1.4"
+  }
 }
