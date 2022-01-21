@@ -15,8 +15,14 @@ function App() {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <p>{!data ? "Er Marit advokat?" : data}</p>
+          <h1>{!data ? "Er Marit advokat?" : data}</h1>
+          <h6>Niks</h6>
+
+
         </header>
+        <body>
+        <a href="url">https://github.com/Rallstad/ermaritadvokat</a>
+        </body>
       </div>
   );
 }
