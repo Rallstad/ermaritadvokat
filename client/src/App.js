@@ -13,16 +13,20 @@ function App() {
 
   return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1>{!data ? "Er Marit advokat?" : data}</h1>
-          <h6>Niks</h6>
-
-
-        </header>
-        <body>
-        <a href="url">https://github.com/Rallstad/ermaritadvokat</a>
-        </body>
+          <div className="header">
+            <header className="App-header">
+              <img src={logo} className="App-logo" alt="logo" />
+              <h1>{!data ? "Er Marit advossskat?" : data}</h1>
+              <h6>Niks</h6>
+            </header>
+          </div>
+          <div class="body">
+            <body>
+            <a href="https://github.com/Rallstad/ermaritadvokat">Sjekk ut Haralds Github for massevis av uferdig ræl
+                <img src="github.png" className="Link-image"></img>
+            </a>
+            </body>
+          </div>
       </div>
   );
 }

@@ -1,3 +1,4 @@
 .idea/modules.xml
 .idea/riderModule.iml
 node_modules/
+client/node_modules/
